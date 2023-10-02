@@ -1,0 +1,276 @@
+Body{
+    background: #000587;
+    overflow-x:hidden ;
+}
+.content-container{
+    margin-left: 0px;
+    width: 1480px;
+    margin-top: -50px;
+}
+
+.recomendaciones-descripcion {
+    width: 500px;
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    border-style: solid;
+    border-color: #000587;
+    margin-top: -530px;
+    margin-left: 70px;
+}
+.recomendaciones-button{
+    padding: 15px 20px;
+    border-radius: 13px;
+    margin-top: -60px;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background-color: #20abc4;
+    cursor: pointer;
+    margin-left: 150px;
+;
+}
+
+.peliculas-lista-container{
+    padding:0 20px;
+}
+
+.peliculas-lista-titulo{
+    margin-left: 60px;
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #0c0f6c;
+}
+
+
+.peliculas-lista{
+    align-items: center;
+    height: 300px;
+    background-color: #05085b;
+    display: flex;
+    justify-content: space-between
+}
+
+.peliculas-lista-item-img{
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+
+
+.peliculas-lista-item:hover .peliculas-lista-item-img {
+    margin: 30px;
+    opacity: 0.5;
+}
+
+.peliculas-lista-item:hover .peliculas-lista-item-titulo,
+.peliculas-lista-item:hover .peliculas-lista-item-desc,
+.peliculas-lista-item:hover .peliculas-lista-item-button{
+    opacity: 1;
+}
+
+
+.peliculas-lista-item-desc{
+    background-color: rgba(155, 142, 142, 0.5);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 60px;
+    width: 200px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    margin-top: 460px;
+}
+
+.peliculas-lista-item-button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 90px;
+    opacity: 0;
+    background-color: rgb(81, 147, 239);
+    color: white;
+    z-index: 1;
+    transition: 1s all ease-in-out;
+    margin-top: 8000px;
+    bottom: -110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.peliculas-lista-item2-img{
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+
+
+.peliculas-lista-item2:hover .peliculas-lista-item2-img {
+    margin: 30px;
+    opacity: 0.5;
+}
+
+.peliculas-lista-item2:hover .peliculas-lista-item2-titulo,
+.peliculas-lista-item2:hover .peliculas-lista-item2-desc,
+.peliculas-lista-item2:hover .peliculas-lista-item2-button{
+    opacity: 1;
+}
+
+
+.peliculas-lista-item2-desc{
+    background-color: rgba(155, 142, 142, 0.5);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 620px;
+    width: 200px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    margin-top: 470px;
+}
+
+.peliculas-lista-item2-button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 660px;
+    opacity: 0;
+    background-color: rgb(81, 147, 239);
+    color: white;
+    z-index: 1;
+    transition: 1s all ease-in-out;
+    margin-top: 8000px;
+    bottom: -110px;
+}
+
+
+
+
+
+
+
+.peliculas-lista-item3-img{
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+
+
+.peliculas-lista-item3:hover .peliculas-lista-item3-img {
+    margin: 30px;
+    opacity: 0.5;
+}
+
+.peliculas-lista-item3:hover .peliculas-lista-item3-titulo,
+.peliculas-lista-item3:hover .peliculas-lista-item3-desc,
+.peliculas-lista-item3:hover .peliculas-lista-item3-button{
+    opacity: 1;
+}
+
+
+.peliculas-lista-item3-desc{
+    background-color: rgba(155, 142, 142, 0.5);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 1190px;
+    width: 200px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    margin-top: 470px;
+}
+
+.peliculas-lista-item3-button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 1220px;
+    opacity: 0;
+    background-color: rgb(81, 147, 239);
+    color: white;
+    z-index: 1;
+    transition: 1s all ease-in-out;
+    margin-top: 8000px;
+    bottom: -110px;
+}
+
+
+
+
+
+
+
+
+.API {
+    background-image: url("https://wallpapercave.com/wp/wp3277735.jpg");
+    /* Propiedades del fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Color de texto blanco */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.api-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+

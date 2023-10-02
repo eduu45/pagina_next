@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100px; /* Altura del pie de página */
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+}
